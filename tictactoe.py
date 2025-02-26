@@ -1,4 +1,5 @@
 import pygame
+import time
 from pygame.locals import *
 pygame.init()
 screen=pygame.display.set_mode((600,600))
@@ -183,6 +184,7 @@ while True:
     if x1==1 and x2==1 and x3==1 or x4==1 and x5==1 and x6==1 or x7==1 and x8==1 and x9==1 or x1==1 and x4==1 and x7==1 or x2==1 and x5==1 and x8==1 or x3==1 and x6==1 and x9==1 or x1==1 and x5==1 and x9==1 or x3==1 and x5==1 and x7==1:
         show_text(' X Wins',240,300,red,32)
         pygame.display.update()
+        time.sleep(5)
         break
     if o==1 and o1==1 and o2==1 or o3==1 and o4==1 and o5==1 or o6==1 and o7==1 and o8==1 or o==1 and o3==1 and o6==1 or o1==1 and o4==1 and o7==1 or o2==1 and o5==1 and o8==1 or o==1 and o4==1 and o8==1 or o2==1 and o4==1 and o6==1:
         show_text(' O Wins',240,300,red,32)                  
