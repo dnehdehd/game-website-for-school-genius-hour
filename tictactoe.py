@@ -189,6 +189,8 @@ while True:
     if o==1 and o1==1 and o2==1 or o3==1 and o4==1 and o5==1 or o6==1 and o7==1 and o8==1 or o==1 and o3==1 and o6==1 or o1==1 and o4==1 and o7==1 or o2==1 and o5==1 and o8==1 or o==1 and o4==1 and o8==1 or o2==1 and o4==1 and o6==1:
         show_text(' O Wins',240,300,red,32)                  
         pygame.display.update()
+        break
     if x1+x2+x3+x4+x5+x6+x7+x8+x9+o+o1+o2+o3+o4+o5+o6+o7+o8==9:
         show_text(' TIE  ',240,300,red,32)
         pygame.display.update()
+        break
